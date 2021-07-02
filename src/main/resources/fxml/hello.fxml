@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="444.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+    <children>
+
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="69.0" text="Name" />
+            <TextField fx:id="name" layoutX="91.0" layoutY="10.0" prefHeight="25.0" prefWidth="109.0" />
+            <Label layoutY="404.0" prefHeight="17.0" prefWidth="56.0" text="Message" />
+            <TextField fx:id="message" layoutX="58.0" layoutY="400.0" prefHeight="25.0" prefWidth="349.0" />
+            <Button fx:id="sendMsg" layoutX="434.0" layoutY="400.0" mnemonicParsing="false" text="Send" onAction="#send" />
+            <TextArea fx:id="chat" layoutX="15.0" layoutY="108.0" prefHeight="283.0" prefWidth="491.0" />
+      <Label layoutX="14.0" layoutY="57.0" text="Password" />
+      <PasswordField fx:id="password" layoutX="91.0" layoutY="53.0" prefHeight="25.0" prefWidth="109.0" />
+      <Button fx:id="login" layoutX="225.0" layoutY="53.0" mnemonicParsing="false" text="Login"  />
+
+    </children>
+</AnchorPane>
